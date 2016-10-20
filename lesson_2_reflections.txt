@@ -18,4 +18,8 @@ to use and control it we can use the following commands:
 - "git branch (Branch_Name)": with this command we can create new branch.
 - "git checkout (Branch_Name)": with it we can move from branch to another one.
 *********************************************************************
+How do the diagrams help you visualize the branch structure?
+
+It's make me easy to understand how branchs works.
+*********************************************************************
 
