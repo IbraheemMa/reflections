@@ -9,4 +9,13 @@ on the other hand to check the diffrence between the "staging area" and the "rep
 to remove the editet file that we don't want to add it to the stage area we must use the command "git reset --hard" but we must be very careful when
 we use this command because it's delete all the changed for the none staged files.
 *********************************************************************
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+when some one want to make some other version from the main project like another language settings or beta version of the project.
+This set helps to keep the main project away from any changes.
+to use and control it we can use the following commands:
+- "git baranch" : this command allow us to check which branches are on our repository and which one are we use.
+- "git branch (Branch_Name)": with this command we can create new branch.
+- "git checkout (Branch_Name)": with it we can move from branch to another one.
+*********************************************************************
 
