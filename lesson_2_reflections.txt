@@ -4,14 +4,14 @@ How is the staging area different from the working directory and the repository?
 *********************************************************************
 How can you use the staging area to make sure you have one commit per logical change?
 
-using command "git diff" to check the differince between the "working directory" and "staging area"
+Using command "git diff" to check the differince between the "working directory" and "staging area"
 on the other hand to check the diffrence between the "staging area" and the "repository" we can use the command "git diff --staged"
 to remove the editet file that we don't want to add it to the stage area we must use the command "git reset --hard" but we must be very careful when
 we use this command because it's delete all the changed for the none staged files.
 *********************************************************************
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
-when some one want to make some other version from the main project like another language settings or beta version of the project.
+When some one want to make some other version from the main project like another language settings or beta version of the project.
 This set helps to keep the main project away from any changes.
 to use and control it we can use the following commands:
 - "git baranch" : this command allow us to check which branches are on our repository and which one are we use.
@@ -22,4 +22,15 @@ How do the diagrams help you visualize the branch structure?
 
 It's make me easy to understand how branchs works.
 *********************************************************************
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
+
+*********************************************************************
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+With automatic merging we can save time that we will using it for collect the codes to add it on the main project.
+Otherwise there is some problems that may we will face them like if we set some group of codes on a function or
+on function inside a class would be hard for the merging processing to recognize this change on the code.
+On the other hand if we use the merging process manually for the last case that I mentioned it. would be better to
+get a clean an workful project. But if we use the manually merging always some times it would be just a waste of time.
+*********************************************************************
