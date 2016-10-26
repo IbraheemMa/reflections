@@ -6,3 +6,9 @@ Why might you want to always pull changes manually rather than having Git automa
 
 I want to make it automatically up-to-dated.
 ***************************************************************************************
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks are to make clone between two accounts on GitHub.
+Clones are making a repository copy between GitHub repository and local one or two local repository.
+branches are making another side of the project that we want to edit it separately fromt the main project on the local.
+***************************************************************************************
